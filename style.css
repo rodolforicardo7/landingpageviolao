@@ -1,0 +1,99 @@
+.fa-guitar {
+    font-size: 200px;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+
+.fa-question-circle {
+    font-size: 200px;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+
+.fa-not-equal {
+    font-size: 200px;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#banner {
+    background-image: url('https://image.freepik.com/fotos-gratis/homem-tocando-violao_1155-31.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 300px 0;
+    text-align: center;
+}
+
+#banner p {
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    opacity: 0.9;
+    
+}
+
+.tocou {
+    text-align: center;
+    padding: 300px;
+    background-color: white;
+}
+
+
+a {
+    text-decoration: none;
+    color: black;
+    padding: 15px;
+    font-size: 25px;   
+}
+
+.fundo {
+    background-color: rgb(255, 255, 255);
+    width: 800px;
+    opacity: 0.7;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.fundo2{
+    background-color: rgb(74, 74, 218); 
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.365);
+    padding: 20px;
+    align-items: center;
+    margin-left: 500px;
+    margin-right: 500px;
+}
+.botao {
+    color: white;
+    background-color: rgb(74, 74, 218); 
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.365);
+}
+
+
+.container {
+    display: grid;
+    place-items: center; /*ATENÇÃO*/
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+
+.video {
+    margin-top: 70px;
+}
+
+footer{
+    margin-top: 300px;
+}
+footer p{
+    background:#404040;
+    color: white;
+    padding: 10px 0px;
+    text-align: center;
+    margin: 5px auto;
+}
